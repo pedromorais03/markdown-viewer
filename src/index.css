@@ -1,0 +1,23 @@
+.app-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   max-width: 60%;
+   margin: 50px auto;
+}
+
+textarea{
+   width: 85%;
+   height: 300px;
+   margin-bottom: 20px;
+}
+
+.markdown-content{
+   border: 1px solid #ccc;
+   padding: 20px;
+   width: 82%;
+   height: auto;
+   overflow-y: auto;
+   margin-bottom: 20px
+}
