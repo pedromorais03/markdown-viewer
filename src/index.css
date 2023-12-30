@@ -7,17 +7,36 @@
    margin: 50px auto;
 }
 
-textarea{
+.app-container textarea{
    width: 85%;
    height: 300px;
    margin-bottom: 20px;
 }
 
-.markdown-content{
+.app-container .markdown-content{
    border: 1px solid #ccc;
    padding: 20px;
    width: 82%;
    height: auto;
    overflow-y: auto;
    margin-bottom: 20px
+}
+
+.app-container .clear-btn{
+   border: none;
+   padding: 20px;
+   width: 86%;
+   background-color: #ff4545;
+   color: #fff;
+   font-size: 18px;
+   text-align: center;
+   border-radius: 10px;
+
+   cursor: pointer;
+   transition: .2s ease-in-out;
+}
+
+.app-container .clear-btn:hover{
+   background-color: #ff8383;
+   color: #e5e5e5;
 }
